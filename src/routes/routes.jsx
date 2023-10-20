@@ -3,6 +3,7 @@ import { Outlet } from 'react-router-dom'
 import { Layout } from '../components/layout/Layout'
 import { Auth } from '../pages/Auth'
 import { PageNotFound } from '../pages/PageNotFound'
+import { Home } from '../pages/Home'
 import Profile from '../pages/Profile'
 import { Register } from '../pages/Register'
 
@@ -20,14 +21,18 @@ export const appRoutes = [
 				element: <PageNotFound />,
 			},
 			{
+				path: 'home',
+				element: <Home />
+			},
+			{
 				path: 'auth',
 				element: <Auth />,
 			},
-            {
+      {
 				path: 'register',
 				element: <Register />,
 			},
-            {
+      {
 				path: 'profile',
 				element: <Profile />,
 			},
