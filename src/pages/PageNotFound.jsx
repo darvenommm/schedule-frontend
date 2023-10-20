@@ -1,10 +1,10 @@
 import React from 'react'
 
-const Profile = () => {
+export const PageNotFound = () => {
   return (
     <div>
+      
     </div>
   )
 }
 
-export default Profile

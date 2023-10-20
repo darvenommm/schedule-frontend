@@ -1,5 +1,9 @@
+import React from 'react'
 import { Outlet } from 'react-router-dom'
 import { Layout } from '../components/layout/Layout'
+import { Auth } from '../pages/Auth'
+import { PageNotFound } from '../pages/PageNotFound'
+import Profile from '../pages/Profile'
 
 export const appRoutes = [
 	{
@@ -15,20 +19,12 @@ export const appRoutes = [
 				element: <PageNotFound />,
 			},
 			{
-				path: '/',
-				element: <Home />,
+				path: 'auth',
+				element: <Auth />,
 			},
-			{
-				path: '/about',
-				element: <AboutPage />,
-			},
-			{
-				path: '/histPlace/:histPlaceId',
-				element: <HistPlacePage />,
-			},
-			{
-				path: '/AllHistPlacesPage',
-				element: <AllHistPlacesPage />,
+            {
+				path: 'profile',
+				element: <Profile />,
 			},
 		],
 	},
