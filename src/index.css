@@ -55,11 +55,14 @@ code {
   font-size: 20px;
   text-decoration: none;
 
+  transition: background-color 0.2s;
+  border-radius: 22px 0 0 22px;
+
   padding: 15px 19px;
 }
 
 .navbar__link--active {
   background-color: #ffffff;
-  border-radius: 22px 0 0 22px;
+
   box-shadow: -9px 4px 9px 0 rgba(0, 0, 0, 0.1);
 }
