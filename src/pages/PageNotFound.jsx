@@ -2,9 +2,7 @@ import React from 'react'
 
 export const PageNotFound = () => {
   return (
-    <div>
-      
-    </div>
+    <div style={{ marginTop: 100 }}>PageNotFound</div>
   )
 }
 
