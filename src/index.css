@@ -11,3 +11,55 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+/* layout */
+.layout {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+
+  min-height: 100vh;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  flex-direction: column;
+  gap: 145px;
+
+  background-color: #9da7c8;
+
+  padding: 22px 0;
+}
+
+.navbar__logo {
+  align-self: center;
+}
+
+.navbar__links {
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+
+  list-style: none;
+
+  padding: 0;
+  padding-left: 27px;
+  margin: 0;
+}
+
+.navbar__link {
+  display: block;
+
+  color: #000000;
+  font-family: "Prosto One";
+  font-size: 20px;
+  text-decoration: none;
+
+  padding: 15px 19px;
+}
+
+.navbar__link--active {
+  background-color: #ffffff;
+  border-radius: 22px 0 0 22px;
+  box-shadow: -9px 4px 9px 0 rgba(0, 0, 0, 0.1);
+}
