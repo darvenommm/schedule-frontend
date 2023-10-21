@@ -1,5 +1,5 @@
 import React from "react";
-import arrows from '../assets/arrows.svg'
+import arrows from "../assets/arrows.svg";
 
 const Timetable = () => {
   // useEffect(() => {
@@ -37,7 +37,6 @@ const Timetable = () => {
       </div>
       <div className="timetable__down">
         <div className="timetable__down__time">
-          <p className="timetable__down__time__text"></p>
           <p className="timetable__down__time__text">
             9:00<span>10:30</span>
           </p>
@@ -47,9 +46,15 @@ const Timetable = () => {
           <p className="timetable__down__time__text">
             13:15<span>14:45</span>
           </p>
-          {/* <p className="timetable__down__time__text">15:00<span>16:30</span></p>
-            <p className="timetable__down__time__text">16:45<span>18:15</span></p>
-            <p className="timetable__down__time__text">18:30<span>20:00</span></p> */}
+          <p className="timetable__down__time__text">
+            15:00<span>16:30</span>
+          </p>
+          <p className="timetable__down__time__text">
+            16:45<span>18:15</span>
+          </p>
+          <p className="timetable__down__time__text">
+            18:30<span>20:00</span>
+          </p>
         </div>
         <div className="timetable__down__items">
           <h3>Понедельник</h3>
@@ -76,6 +81,21 @@ const Timetable = () => {
             <p className="timetable__down__audience">кабинет 6-205</p>
             <p className="timetable__down__teacher">К.В.Иванов</p>
           </div>
+          <div className="timetable__down__item">
+            <h3 className="timetable__down__title">Высшая Математика</h3>
+            <p className="timetable__down__type">Лекция</p>
+            <p className="timetable__down__audience">кабинет 6-205</p>
+            <p className="timetable__down__teacher">К.В.Иванов</p>
+          </div>
+          <div className="timetable__down__item">
+            <h3 className="timetable__down__title">Высшая Математика</h3>
+            <p className="timetable__down__type">Лекция</p>
+            <p className="timetable__down__audience">кабинет 6-205</p>
+            <p className="timetable__down__teacher">К.В.Иванов</p>
+          </div>
+          <div className="timetable__down__item timetable__down__item_extra">
+           
+          </div>
         </div>
         <div className="timetable__down__items">
           <h3>Вторник</h3>
@@ -84,6 +104,18 @@ const Timetable = () => {
 
                     </div>
                 })} */}
+          <div className="timetable__down__item timetable__down__item_extra">
+           
+          </div>
+          <div className="timetable__down__item timetable__down__item_extra">
+           
+          </div>
+          <div className="timetable__down__item">
+            <h3 className="timetable__down__title">Высшая Математика</h3>
+            <p className="timetable__down__type">Лекция</p>
+            <p className="timetable__down__audience">кабинет 6-205</p>
+            <p className="timetable__down__teacher">К.В.Иванов</p>
+          </div>
           <div className="timetable__down__item">
             <h3 className="timetable__down__title">Высшая Математика</h3>
             <p className="timetable__down__type">Лекция</p>
@@ -128,6 +160,18 @@ const Timetable = () => {
             <p className="timetable__down__audience">кабинет 6-205</p>
             <p className="timetable__down__teacher">К.В.Иванов</p>
           </div>
+          <div className="timetable__down__item timetable__down__item_extra">
+           
+          </div>
+          <div className="timetable__down__item">
+            <h3 className="timetable__down__title">Высшая Математика</h3>
+            <p className="timetable__down__type">Лекция</p>
+            <p className="timetable__down__audience">кабинет 6-205</p>
+            <p className="timetable__down__teacher">К.В.Иванов</p>
+          </div>
+          <div className="timetable__down__item timetable__down__item_extra">
+          
+          </div>
         </div>
         <div className="timetable__down__items">
           <h3>Четверг</h3>
@@ -153,6 +197,18 @@ const Timetable = () => {
             <p className="timetable__down__type">Лекция</p>
             <p className="timetable__down__audience">кабинет 6-205</p>
             <p className="timetable__down__teacher">К.В.Иванов</p>
+          </div>
+          <div className="timetable__down__item">
+            <h3 className="timetable__down__title">Высшая Математика</h3>
+            <p className="timetable__down__type">Лекция</p>
+            <p className="timetable__down__audience">кабинет 6-205</p>
+            <p className="timetable__down__teacher">К.В.Иванов</p>
+          </div>
+          <div className="timetable__down__item timetable__down__item_extra">
+           
+          </div>
+          <div className="timetable__down__item timetable__down__item_extra">
+            
           </div>
         </div>
         <div className="timetable__down__items">
@@ -180,6 +236,15 @@ const Timetable = () => {
             <p className="timetable__down__audience">кабинет 6-205</p>
             <p className="timetable__down__teacher">К.В.Иванов</p>
           </div>
+          <div className="timetable__down__item timetable__down__item_extra">
+           
+          </div>
+          <div className="timetable__down__item timetable__down__item_extra">
+            
+          </div>
+          <div className="timetable__down__item timetable__down__item_extra ">
+            
+          </div>
         </div>
         <div className="timetable__down__items">
           <h3>Суббота</h3>
@@ -188,7 +253,7 @@ const Timetable = () => {
 
                     </div>
                 })} */}
-          <div className="timetable__down__item">
+          <div className="timetable__down__item timetable__down__item_extra">
             <h3 className="timetable__down__title">Высшая Математика</h3>
             <p className="timetable__down__type">Лекция</p>
             <p className="timetable__down__audience">кабинет 6-205</p>
@@ -199,6 +264,24 @@ const Timetable = () => {
             <p className="timetable__down__type">Лекция</p>
             <p className="timetable__down__audience">кабинет 6-205</p>
             <p className="timetable__down__teacher">К.В.Иванов</p>
+          </div>
+          <div className="timetable__down__item timetable__down__item_extra">
+            <h3 className="timetable__down__title">Высшая Математика</h3>
+            <p className="timetable__down__type">Лекция</p>
+            <p className="timetable__down__audience">кабинет 6-205</p>
+            <p className="timetable__down__teacher">К.В.Иванов</p>
+          </div>
+          <div className="timetable__down__item">
+            <h3 className="timetable__down__title">Высшая Математика</h3>
+            <p className="timetable__down__type">Лекция</p>
+            <p className="timetable__down__audience">кабинет 6-205</p>
+            <p className="timetable__down__teacher">К.В.Иванов</p>
+          </div>
+          <div className="timetable__down__item timetable__down__item_extra">
+            {/* <h3 className="timetable__down__title">Высшая Математика</h3>
+            <p className="timetable__down__type">Лекция</p>
+            <p className="timetable__down__audience">кабинет 6-205</p>
+            <p className="timetable__down__teacher">К.В.Иванов</p> */}
           </div>
           <div className="timetable__down__item">
             <h3 className="timetable__down__title">Высшая Математика</h3>
