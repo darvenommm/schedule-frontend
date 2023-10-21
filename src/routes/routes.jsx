@@ -6,9 +6,19 @@ import { PageNotFound } from '../pages/PageNotFound'
 import { Home } from '../pages/Home'
 import Profile from '../pages/Profile'
 import { Register } from '../pages/Register'
+import Timetable from '../pages/Timetable'
 
 export const appRoutes = [
+    {
+        path: 'auth',
+        element: <Auth />,
+    },
+    {
+        path: 'register',
+        element: <Register />,
+    },
 	{
+        
 		path: '/',
 		element: (
 			<Layout>
@@ -21,18 +31,18 @@ export const appRoutes = [
 				element: <PageNotFound />,
 			},
 			{
-				path: 'home',
-				element: <Home />
+				path: '/',
+				element: <Timetable />
 			},
-			{
-				path: 'auth',
-				element: <Auth />,
-			},
-      {
-				path: 'register',
-				element: <Register />,
-			},
-      {
+			// {
+			// 	path: 'auth',
+			// 	element: <Auth />,
+			// },
+            // {
+			// 	path: 'register',
+			// 	element: <Register />,
+			// },
+            {
 				path: 'profile',
 				element: <Profile />,
 			},
